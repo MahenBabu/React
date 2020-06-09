@@ -1,6 +1,7 @@
 import React from 'react';
 import './default.scss';
-import Header from './components/Header/index';
+import Header from './components/Header';
+import Footer from './components/Footer'
 
 function App() {
   return (
