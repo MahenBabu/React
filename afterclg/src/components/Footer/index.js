@@ -3,7 +3,7 @@ import './styles.scss'
 function Footer() {
     return (
         <div>
-            <h1>Footer</h1>
+            <h1>Footer Changed</h1>
         </div>
     )
 }
