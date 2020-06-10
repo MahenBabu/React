@@ -1,13 +1,18 @@
 import React from 'react';
 import './default.scss';
-import Header from './components/Header';
-import Footer from './components/Footer'
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
+import About from './components/pages/About';
+import Navbar from './components/Layout/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Footer />
+      <Navbar />
+      <Home />
+      <About />
+      <Contact />
     </div>
   );
 }
