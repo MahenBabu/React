@@ -1,0 +1,58 @@
+.page-not-found{
+    
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+   
+    h1{
+        font-family: 'Architects Daughter', cursive;
+        line-height: 1;
+        font-weight: 800;
+        font-size: 60px;
+        text-align: center;
+        top:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+
+
+// html{
+//     font-size: 10px;
+// }
+
+// html,
+// body{
+//     height: 100%;
+//     margin:0;
+//     padding: 0;
+// }
+
+// *, ::before, ::after{
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
+
+// body{
+//     font-family: 'Architects Daughter', cursive;
+//     font-size: 1.8rem;
+//     line-height: 1;
+//     font-weight: 400;
+// }
+
+// a{
+//     text-decoration: none;
+// }
+
+// a, a:hover{
+//     -webkit-transition: all .4s ease-in-out;
+//     -moz-transition: all .4s ease-in-out;
+//     transition: all .4s ease-in-out;
+// }
